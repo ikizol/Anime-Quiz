@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="styles.css" rel="stylesheet">
+  <script defer src="script.js"></script>
+  <title>Quiz App</title>
+</head>
+<body>
+  <div class="quiz-container" id="quiz">
+    <!-- Start Page -->
+    <div class="start-page" id="start-page">
+      <h2>Catch 'Em All: Anime Trivia Challenge</h2>
+      <p>How much do you really know...</p>
+      <img src="gongif.gif" alt="Gon Freecss">
+      <p>Let's find out...</p>
+      <button id="start">Start Quiz</button>
+    </div>
+    
+  
+    <!-- Quiz Content -->
+    <div class="quiz-header" id="quiz-header" style="display:none;">
+      <h2 id="question">Question Text</h2>
+      <ul>
+        <li><button class="answer" id="a_button">Answer</button></li>
+        <li><button class="answer" id="b_button">Answer</button></li>
+        <li><button class="answer" id="c_button">Answer</button></li>
+        <li><button class="answer" id="d_button">Answer</button></li>
+      </ul>
+    </div>
+    
+    <!-- Submit Button -->
+    <button id="submit" style="display:none;">Submit</button>
+  </div>
+</body>
+</html>
